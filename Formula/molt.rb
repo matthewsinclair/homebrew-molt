@@ -14,8 +14,8 @@ class Molt < Formula
   desc "My Opinionated Local Terminal: a sleeve's shell, tools and agents from one stack"
   homepage "https://github.com/matthewsinclair/molt"
   url "https://github.com/matthewsinclair/molt.git",
-      tag:      "v1.0.1",
-      revision: "fb0d8ff5d15d20ddcb6ace7a2d8ad9e23284737e"
+      tag:      "v1.1.0",
+      revision: "b9d59e2e7a9ed6047c23979055f3d84c26ff874f"
   license "MIT"
 
   # No depends_on "bash": Molt runs on macOS's own bash 3.2 as well as bash 5,
