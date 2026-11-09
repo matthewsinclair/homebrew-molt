@@ -2,14 +2,14 @@
 # below and the commit it names: edit the template, not this file, which the
 # next render replaces.
 #   template  packaging/homebrew/molt.rb
-#   tag       v1.4.5
-#   commit    39fa08efb062d5fd8224ee313284e293141e7683
+#   tag       v1.4.6
+#   commit    f2d2627670208c73d92ae3efb5ad559f5d50fe77
 class Molt < Formula
   desc "My Opinionated Local Terminal: a sleeve's shell, tools and agents from one stack"
   homepage "https://github.com/matthewsinclair/molt"
   url "https://github.com/matthewsinclair/molt.git",
-      tag:      "v1.4.5",
-      revision: "39fa08efb062d5fd8224ee313284e293141e7683"
+      tag:      "v1.4.6",
+      revision: "f2d2627670208c73d92ae3efb5ad559f5d50fe77"
   license "MIT"
 
   # No depends_on "bash": Molt runs on macOS's own bash 3.2 as well as bash 5,
