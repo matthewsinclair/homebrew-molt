@@ -2,14 +2,14 @@
 # below and the commit it names: edit the template, not this file, which the
 # next render replaces.
 #   template  packaging/homebrew/molt.rb
-#   tag       v1.4.13
-#   commit    85a0e7eb2a128982c61684279aef8637857f0675
+#   tag       v1.4.14
+#   commit    0abf808771317bad19c9b44f50255c700408ea3a
 class Molt < Formula
   desc "My Opinionated Local Terminal: a sleeve's shell, tools and agents from one stack"
   homepage "https://github.com/matthewsinclair/molt"
   url "https://github.com/matthewsinclair/molt.git",
-      tag:      "v1.4.13",
-      revision: "85a0e7eb2a128982c61684279aef8637857f0675"
+      tag:      "v1.4.14",
+      revision: "0abf808771317bad19c9b44f50255c700408ea3a"
   license "MIT"
 
   # The template holds no depends_on bash: render writes the bash build line
